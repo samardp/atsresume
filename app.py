@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 nltk.download('punkt')
 
 # Set OpenAI API key
-openai.api_key = 'sk-zlaM0JWSSP-yQhwnJz_ZW5LkUNP8BYOAL5pOb3KxslT3BlbkFJoq2QDloeNqXR90L2kFmueFMM0gHkby-ownc6pWhgEA'
+openai.api_key = ''
 
 # Function to chunk large job descriptions using LangChain
 def chunk_text(text, chunk_size=500, chunk_overlap=100):
