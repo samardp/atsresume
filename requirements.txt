@@ -1,0 +1,6 @@
+fpdf==1.7.2
+langchain==0.3.3
+nltk==3.9.1
+openai==1.51.2
+python_docx==1.1.2
+streamlit==1.33.0
