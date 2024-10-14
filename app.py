@@ -6,6 +6,7 @@ from docx import Document
 import streamlit as st
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+nltk.download('punkt')
 
 # Set the OpenAI API key from Streamlit secrets securely
 openai.api_key = st.secrets["apikey"]
